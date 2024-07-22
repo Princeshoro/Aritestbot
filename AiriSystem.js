@@ -35,7 +35,7 @@ global.Beton = require('./function/funcbeton.js')
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
   fs.unwatchFile(file);
-  console.log("Update config.js");
+  console.log("Update AiriSystem.js");
   delete require.cache[file];
   require(file);
 });
