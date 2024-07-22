@@ -9,7 +9,7 @@
 */
 
 (async () => {
-  require("./config");
+  require("./AiriSystem");
   const {
     default: _0xaf1917,
     useMultiFileAuthState: _0x32a72d,
